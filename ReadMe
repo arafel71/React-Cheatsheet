@@ -1,2 +1,15 @@
+useEffect
+-----------
+Qu'est-ce que le hook useEffect dans React ?
+Le hook useEffect dans ReactJS est utilisé pour gérer les effets secondaires tels que la
 récupération de données et la mise à jour du DOM. Ce hook s'exécute à chaque rendu, mais il existe également un moyen d'utiliser un tableau de dépendances à l'aide duquel nous pouvons contrôler l'effet du rendu. 
 Le hook useEffect est essentiel pour gérer les effets secondaires dans les composants fonctionnels. 
+
+useNavigate()
+--------------
+Le hook useNavigate() dans ReactJS est bénéfique pour :
+
+Gestion des interactions utilisateur : rediriger les utilisateurs après certaines actions, telles que l'envoi de formulaires ou la connexion.
+Redirection programmatique : accédez à différents itinéraires en fonction de l'état ou des conditions de l'application.
+Remplacement des liens traditionnels : obtenez une navigation dynamique sans dépendre uniquement des composants <Link> ou <NavLink>.
+Gestion du flux de navigation : contrôlez l'historique de navigation, comme la navigation vers l'arrière ou vers l'avant dans la pile d'historique.
