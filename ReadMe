@@ -4,6 +4,17 @@ Qu'est-ce que le hook useEffect dans React ?
 Le hook useEffect dans ReactJS est utilisé pour gérer les effets secondaires tels que la
 récupération de données et la mise à jour du DOM. Ce hook s'exécute à chaque rendu, mais il existe également un moyen d'utiliser un tableau de dépendances à l'aide duquel nous pouvons contrôler l'effet du rendu. 
 Le hook useEffect est essentiel pour gérer les effets secondaires dans les composants fonctionnels. 
+Syntaxe:
+
+useEffect(() => { 
+    // La logique des effets secondaires va ici 
+    return () => { 
+         // Logique de nettoyage (facultatif) 
+  }; 
+}, [dépendances]);
+Fonction d’effet : c’est ici que votre code d’effet secondaire s’exécute.
+Fonction de nettoyage : Cette fonction de retour facultative nettoie les effets secondaires tels que les abonnements ou les minuteries lorsque le composant est démonté.
+Tableau de dépendances : React réexécute l'effet si l'une des valeurs de ce tableau change.
 
 useNavigate()
 --------------
