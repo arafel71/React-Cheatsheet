@@ -1,1 +1,2 @@
-
+récupération de données et la mise à jour du DOM. Ce hook s'exécute à chaque rendu, mais il existe également un moyen d'utiliser un tableau de dépendances à l'aide duquel nous pouvons contrôler l'effet du rendu. 
+Le hook useEffect est essentiel pour gérer les effets secondaires dans les composants fonctionnels. 
